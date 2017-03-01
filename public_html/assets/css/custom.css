@@ -1,0 +1,388 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-01-30, 17:00:49
+    Author     : Karolina
+*/
+
+/* colour references
+green: #79b044
+salmon: #dd5638
+blue gray: #3e4249
+*/
+
+body {
+    margin-top:50px;
+    font-family:'Raleway', Helvatica, sans-serif;
+    font-size:14 px;
+    background: beige top left repeat;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    font-weight:bold;
+}
+
+h1 {
+    font-size: 3 em;
+}
+
+h1,h2 {
+    margin: 0 0  40px;
+}
+
+h3{
+    margin:20px 0;
+     
+}
+
+h4{
+    font-size: 18px;
+}
+p {
+   margin: 0 0 15px;
+}
+p.lead {
+    font-weight: normal;
+}
+
+a:link, a:visited {
+    color: #3F0505;
+    
+}
+a:hover {
+    text-decoration: none;
+    color: #ce8483;
+}
+.btn {
+    font-weight: bold;
+}
+.btn-danger {
+    background-color: #dd5638;
+    border-collapse: separate;
+}
+
+.navbar-brand img {
+     max-height: 150px;
+      margin-left :50px;
+     
+}
+#hero {
+    background: url('../img/flow.jpg') 50% 0 repeat fixed;
+    min-height: 500px;
+    padding: 40px 0;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering:optimizeLegibility;
+}
+#hero article{
+    width: 100%;
+    text-align: center;
+} 
+#hero .hero-text {
+    margin-top: 30px;
+   
+   
+}
+#price-timeline {
+    margin: 30px 0 60px;
+    text-align: center;
+}
+#price-timeline .price {
+    display: inline-block;
+    margin: 0 2% 0 0 ;
+    width:30%;
+    background: #843534;
+    padding: 10px 20px 30px;
+    position: relative;
+    vertical-align:top;
+}
+#price-timeline .price.active {
+    background: #761c19;
+}
+#price-timeline .price span {
+    background: #101010;
+    display: block;
+    height:70px;
+    width:70px;
+    text-align: center;
+    line-height: 70px;
+    font-weight: bold;
+    font-size:24px;
+    border-radius: 100%;
+    -webkit-border-radius:100%;
+    -moz-border-radius:100%;
+    position:absolute;
+    bottom:-35px;
+    left:50%;
+    margin-left:-35px;
+    
+}
+
+
+#price-timeline h4 {
+    margin: 0 0 10px;
+}
+
+#price-timeline h4 small {
+    color:white;
+    font-weight: bold;
+    display: block; 
+}
+
+#optin {
+    background: #ce8483;
+    padding:10px 0;
+    color:white;
+    -webkit-font-smoothing:antialiased;
+    text-rendering: optimizelegibility;
+    font-size:1em;
+    
+}
+
+#optin p{
+    margin: 7px 0 0 0 ;
+}
+
+section {
+    padding: 80px 0;
+   
+}
+
+.section-header {
+     text-align: center;
+}
+
+section h2 {
+    margin: 20px 0 40px;
+}
+section h3 {
+    margin: 30px 0 10px;
+}
+
+#ikonki {
+    background: wheat;
+    text-align: center;
+}
+i.ci {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: url('../img/sprite.png') no-repeat;
+}
+
+.ci.ci-client {background-position: -5px -350px; }
+.ci.ci-health {background-position: -670px -405px; }
+.ci.ci-tasty {background-position: -170px -455px; }
+.ci.ci-trends {background-position: -670px -180px; }
+
+.badge.social {
+    background: #ccc;
+    font-size: 24px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin:0 5px 20px 0;
+    padding: 0;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    color: white;
+}
+        
+.badge.social.facebook:hover {
+    background: #3b5998;
+}  
+.badge.social.instagram:hover {
+    background: #3F0505;
+} 
+    
+footer {
+    background: #843534;
+    color: white;
+    padding: 20px 0 10px;
+    font-size: 12px;
+    height: 50px;
+    
+    
+}
+footer p {
+    margin:0;
+}
+footer a:link, footer a:visited {
+    color:white;
+}
+footer a:hover {
+    color:#ce8483;
+}
+
+        
+
+#mika {
+    background: white url('../img/mika.png' )90% 150px no-repeat;
+}
+
+#mika .hobby {
+    display: table;
+    background: #ce8483;
+    font-size: 20px;
+    font-weight: bold;
+    height: 140px;
+    width: 140px;
+    text-align: center;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    color: white;
+}
+#mika .hobby .hobby-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+#mika .hobby span{
+    display:block;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+/*          MEDIA QUERIES       */
+
+@media screen and (max-width:991px){
+    #mika .container {
+        background: rgba(255,255,255,0.8);
+        padding: 20px;
+    }
+    .navbar-brand img {
+     max-height: 100px;
+      margin-left :50px;
+     
+}
+}
+@media screen and (max-width :768){
+    .logo {
+        width:50%;
+    }
+    #optin p {
+        margin:0 0 10px;
+    }
+}
+
+@media screen and (max-width :568){
+    #mika .hobby  {
+        height: 80px;
+        width: 80px;
+        font-size: 22px;
+    }
+    #mika .hobby span{
+        font-size: 16px;
+    }
+}
+
+
+/*      blog        */
+.post, .widget {
+    position: relative;
+    border:solid 1px #ddd;
+    background: white;
+    margin: 0 0 40px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.widget ul li:hover {
+    position:relative;
+    left:2px;
+    
+}
+.post-image img{
+     max-width: 100% ;
+  
+}
+
+.post header,  .post-excerpt, .widget {
+    padding:20px;
+}
+.post header h3{
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+    border-bottom: solid 1px #ddd;
+}
+.post header h3{
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+    border-bottom: solid 1px #ddd;
+    font-size:24px;
+}
+.post-details {
+    font-size: 12px;
+    width:90%;
+}
+
+.post-details i.fa {
+    padding-left:10px;
+}
+.post-details i.fa:first-child {
+    padding-left:0;
+}
+
+#primary {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.feature-image {
+    display:table;
+    width:100%;
+}
+.feature-image-default-alt {
+    background: url('../img/nice.jpg') no-repeat;
+    background-size: cover;
+}
+.feature-image h1{
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color:#3F0505;
+}
+/*      komentarze        */
+.post-comments-badge {
+    height:70px;
+    width: 70px;
+    position: absolute;
+    top:25px;
+    right:20px;
+    border:none;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    background: #843534;
+    text-align: center;
+    display: table;
+    
+}
+
+.post-comments-badge a {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    
+}
+.post-comments-badge i.fa {
+    display: block;
+    font-size: 15px;
+    padding:0;
+    margin-bottom: 4px;
+    
+}
+
+.post-comments-badge:hover {
+    background-color: #761c19;
+}
